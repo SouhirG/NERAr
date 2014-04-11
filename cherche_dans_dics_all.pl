@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+t#!/usr/bin/perl
 
 #################################################################################
 #NERAr is licensed under the term of the two-clause BSD Licence:
@@ -248,6 +248,6 @@ while ($line = <FILEEN>){
 close FILETAG;
 close FILEEN;
 
-print "$nblocfound localisations trouvées\n";
-print "$nbpersfound personnes trouvées\n";
-print "$nborgfound organisations trouvées\n";
+print "$nblocfound localisations pour lesquelles des traductions sont proposées\n";
+print "$nbpersfound personnes pour lesquelles des traductions sont proposées\n";
+print "$nborgfound organisations pour lesquelles des traductions sont proposées\n";
