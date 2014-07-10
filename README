@@ -6,7 +6,19 @@ Overview
 ========
 This tool preprocess and annonate arabic texts : predict part-of-speech tags, splits off words to separe the basic form and proclitics and annonate arabic named entities. Our tool predict LOC, PERS and ORG entities. Details of this work are presented in: 
 
-Souhir Gahbiche-Braham, Hélène Bonneau-Maynard, Thomas Lavergne, François Yvon. Repérage des entités nommées pour l’arabe : adaptation non-supervisée et combinaison de systèmes. In Actes de la Conférence sur le Traitement Automatique des Langues Naturelles (TALN 2012), pp.487-494, Grenoble, France, June 2012 [http://aclweb.org/anthology//F/F12/F12-2044.pdf]
+Souhir Gahbiche-Braham, Hélène Bonneau-Maynard,  François Yvon. Traitement automatique des entités nommées en arabe : détection et traduction. TAL (Traitement Automatique des Langues), 54(2):101-132, 2014.
+
+If you use NERAr for research purpose, please use the following citation:
+
+@article{gahbiche2014traitement,
+  title={Traitement automatique des entit{\'e}s nomm{\'e}es en arabe: d{\'e}tection et traduction},
+  author={Gahbiche-Braham, Souhir and Bonneau-Maynard, H{\'e}l{\`e}ne and Yvon, Fran{\c{c}}ois},
+  journal={TAL},
+  volume={54},
+  number={2},
+  pages={101--132},
+  year={2014}
+}
 
 For any information, bug reports or comments, contact:
 	souhir.gahbiche[at]limsi.fr or souhir.gahbiche[at]gmail.com
