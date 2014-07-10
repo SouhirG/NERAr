@@ -12,12 +12,19 @@ Souhir Gahbiche-Braham, Hélène Bonneau-Maynard,  François Yvon. Traitement au
 If you use NERAr for research purpose, please use the following citation:
 
 @article{gahbiche2014traitement,
+
   title={Traitement automatique des entit{\'e}s nomm{\'e}es en arabe: d{\'e}tection et traduction},
+  
   author={Gahbiche-Braham, Souhir and Bonneau-Maynard, H{\'e}l{\`e}ne and Yvon, Fran{\c{c}}ois},
+  
   journal={TAL},
+  
   volume={54},
+  
   number={2},
+  
   pages={101--132},
+  
   year={2014}
 }
 
