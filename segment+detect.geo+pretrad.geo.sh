@@ -96,7 +96,7 @@ cat $filetosplit.D-Annot | awk '{print $1,$2,$4,$6}' > $filetosplit.dico
 paste -d ' ' $filetosplit.dico $filetosplit.pos.seg > $filetosplit.dico+pos
 cat $filetosplit.dico+pos | awk '{print $1,$6,$2,$3,$4}' > $filetosplit.pos+dico
 
-/people/souhir/src/wapiti-1.3.0/wapiti label -m modelsAner+afp+geo-0.2.crf $filetosplit.pos+dico > $filetosplit.ner
+$repp/wapiti label -m modelsAner+afp+geo-0.2.crf $filetosplit.pos+dico > $filetosplit.ner
 
 cat $filetosplit.ner | awk '{print $1,$6}' | sed 's/emhtyline/\n/' > $filetosplit.tagsEN
 ./cherche_dans_dics_all.pl $filetosplit.tagsEN $filetosplit.result
