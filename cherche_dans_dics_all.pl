@@ -1,4 +1,4 @@
-t#!/usr/bin/perl
+#!/usr/bin/perl
 
 #################################################################################
 #NERAr is licensed under the term of the two-clause BSD Licence:
